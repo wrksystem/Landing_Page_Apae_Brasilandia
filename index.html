@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APAE Brasilândia de Minas</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="images/logo-regular-free-img.png" alt="logo">
+           <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#what">O que nós fazemos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <button>Doar</button>
+           </ul> 
+        </nav>
+
+        <!--Home Section-->
+        <div class="head" id="home">
+            <h3>Juntos, nós podemos</h3>
+            <h1>
+                Construir um<br />
+                mundo melhor
+            </h1>
+            <button>Saiba Mais</button>
+        </div>
+    </header>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-left-side">
+            <h1>Sobre Nós</h1>
+            <h3>
+                A APAE Brasilândia tem como missão oferecer <br />
+                atendimentos de educação, assitência social e saúde, <br />
+                voltados à melhora da qualidade de vida da pessoa com <br />
+                deficiência intelectual e múltipla e a construção da <br />
+                cidadania através de uma sociedade inclusiva.
+            </h3>
+            <p>
+                A APAE Brasilândia tem como sua meta pedagógica <br />
+                possibilitar a elaboração de conceitos e significados pelo <br />
+                aluno, com base na cooperação reciproca.  
+            </p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="about-right-side">
+            <img src="images/about-01-free-img.jpg" alt="about-img">
+        </div>
+    </section>
+
+    <!--What Section-->
+    <section class="what" id="what">
+        <h1>O Que Nós Fazemos</h1>
+        <hr />
+        <p>
+            <span>O</span>ferecemos atendimentos nas áreas da saúde e assitência social,
+            de acordo com os princípios da equidade, objetivando a melhoria da qualidade
+            de vida dos atendidos e de seus familiares
+        </p>
+        <button>Read More</button>
+        <div class="cards">
+            <div class="box boxa">
+                <h2>We Find & Fund</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxb">
+                <h2>Provider Care</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxc">
+                <h2>We Educate</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxd">
+                <h2>We Employ</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+        </div>
+        <div class="images">
+            <img src="images/gallery-001-free-img.png" alt="img">
+            <img src="images/gallery-002-free-img.png" alt="img">
+            <img src="images/gallery-003-free-img.png" alt="img">
+        </div>  
+    </section>
+
+    <!--Action-->
+    <section class="action">
+        <h3>NOS DÊ UMA MÃO</h3>
+        <h1>Nos apoie e mude o rumo<br />de uma criança especial hoje!</h1>
+        <button>Doar</button>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <div class="contact-left-side">
+            <h2>Mantenha-se atualizado</h2>
+            <input type="email" placeholder="Email Address" /> <br />
+            <br />
+            <button>ENVIAR</button>
+            <h1>NOS DÊ UMA MÃO</h1>
+            <P>
+                Copyright © 2023 Apar Brasilândia | Design by <span>Werik, Web Developer</span>.
+            </P> 
+        </div>
+        <div class="contact-right-side">
+            <h3>Contato</h3>
+            <h4>Rod Mg-181, km 88, Nº 1021,<br /> 
+                Brasilândia de Minas - MG</h4>
+            <p>(38) 3562-2351</p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        //All animations will take exactly 500ms
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true,
+        });
+    </script>
+</body>
+</html>
